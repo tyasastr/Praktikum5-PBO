@@ -9,6 +9,7 @@ public class MainDiary {
         BukuHarian diary = new BukuHarian("Tyas");
 
         // Menulis catatan harian
+        diary.tulisCatatan("01-10-2026", "Tiga praktikum dan lapar");
         diary.tulisCatatan("01-10-2026", "ABCDEFG HIJKLMNOP QRS TUV WXYZ (abjad kalau b. Inggris)");
         diary.tulisCatatan("02-10-2026", "ABCDEFG HIJKLMN OPQRSTU VWXYZ (abjad kalau b. Indonesia)");
         diary.tulisCatatan("03-10-2026","HANACARAKA DATASAWALA PADHAJAYANYA MAGABATHANGA");
